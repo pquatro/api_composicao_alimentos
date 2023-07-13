@@ -5,11 +5,9 @@ from model.grupo import Grupo
 
 class GrupoSchema(BaseModel):
     """ Define como um novo grupo a ser inserido deve ser representado
-    """    
-    id_grupo: int = 1       
+    """        
     nome: str = "Cereais e derivados"
     
-
 
 class GrupoBuscaSchema(BaseModel):
     """ Define como deve ser a estrutura que representa a busca. Que será
